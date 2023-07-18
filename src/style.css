@@ -1,1 +1,63 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  display: flex;
+  background-image: url("https://cdn.wallpapersafari.com/11/55/HtiCEz.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  font-family: "Monsieur La Doulaise", cursive;
+}
+
+.container {
+  display: flex;
+}
+
+.card {
+  width: 300px;
+  height: 550px;
+  background-color: white;
+  border: 3px solid black;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.arriba {
+  display: flex;
+  justify-content: start;
+  font-size: 70px;
+}
+
+.abajo {
+  display: flex;
+  font-size: 70px;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.picas {
+  color: black;
+}
+.trebol {
+  color: black;
+}
+.heart {
+  color: red;
+}
+.diamond {
+  color: red;
+}
+#numero {
+  font-size: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.paloarr {
+  margin-top: 0px;
+}
+.paloabj {
+  margin-bottom: 0px;
+  transform: rotate(3.142rad);
+}
